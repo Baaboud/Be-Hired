@@ -1,0 +1,26 @@
+.break {
+    margin-top: 500px;
+}
+
+nav {
+    z-index: 200;
+}
+
+#search {
+    z-index: 100;
+}
+
+.partner img {
+    filter: brightness(0) invert(0);
+}
+
+.carousel-item img {
+    height: 400px;
+    width: auto;
+}
+
+@media (max-width: 991.98px) {
+    #search {
+        position: static !important;
+    }
+}
