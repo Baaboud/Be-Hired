@@ -78,13 +78,12 @@
                 <div class="input-group">
                     <label class="input-group-text" for="inputGroupSelect01">Filter BY</label>
                     <select class="form-select select1" id="inputGroupSelect01">
-                        <option selected value="0">Choose...</option>
+                        <option selected value="0">ALL</option>
                         <option value="1">Company</option>
                         <option value="2">City</option>
                     </select>
                     <!-- <label class="input-group-text" for="inputGroupSelect02">Options</label> -->
                     <select class="form-select select2" id="inputGroupSelect02">
-                        <option selected value="0">Choose...</option>
                         <option value="1">Google</option>
                         <option value="1">Microsoft</option>
                         <option value="1">Sony</option>
@@ -311,7 +310,7 @@
                             <a href="#!" class="text-reset ar">من نحن</a>
                         </p>
                     </div>
-                    
+
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                         <h6 class="text-uppercase fw-bold mb-4 en">Contact</h6>
                         <h6 class="text-uppercase fw-bold mb-4 ar">للتواصل</h6>
@@ -341,6 +340,20 @@
             var value = $(this).val().toLowerCase();
             $(".jobs .col").filter(function () {
                 $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+
+        $(document).ready(function () {
+            $(".select2").hide();
+            $(".select1").change(function () {
+                var val = $(this).val();
+                if (val == "0") {
+                    $(".select2").hide();
+                } else if (val == "1") {
+                    $(".select2").show().html("<option value='1'>Google</option><option value='2'>Microsoft</option>");
+                } else if (val == "2") {
+                    $(".select2").show().html("<option value='1'>Mukalla</option><option value='2'>Taiz</option>");
+                }
             });
         });
     </script>

@@ -10,7 +10,5 @@ $("#ar-btn").click(function(){
 JS:
 
 function download() {
-
 window.open("CV.pdf");
-
 }
