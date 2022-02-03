@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/slider.css">
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/all.js"></script>
-    <script src="js/jquery.js"></script>
 </head>
 
 <body>
@@ -78,17 +77,20 @@
             <form action="">
                 <div class="input-group">
                     <label class="input-group-text" for="inputGroupSelect01">Filter BY</label>
-                    <select class="form-select" id="inputGroupSelect01">
-                        <option selected>Choose...</option>
+                    <select class="form-select select1" id="inputGroupSelect01">
+                        <option selected value="0">Choose...</option>
                         <option value="1">Company</option>
                         <option value="2">City</option>
                     </select>
                     <!-- <label class="input-group-text" for="inputGroupSelect02">Options</label> -->
-                    <select class="form-select" id="inputGroupSelect02">
-                        <option selected>Choose...</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                    <select class="form-select select2" id="inputGroupSelect02">
+                        <option selected value="0">Choose...</option>
+                        <option value="1">Google</option>
+                        <option value="1">Microsoft</option>
+                        <option value="1">Sony</option>
+                        <option value="2">Mukalla</option>
+                        <option value="2">Taiz</option>
+                        <option value="2">Sanaa</option>
                     </select>
                     <input id="search-input" type="search" class="form-control w-50" placeholder="Search anything...">
                     <button id="search-button" type="button" class="btn btn-primary px-5">
@@ -106,14 +108,14 @@
         <div class="row">
             <div class="col-9">
                 <div class="card-group">
-                    <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 text-center jobs">
                         <div class="col">
                             <div class="card h-100">
                                 <img src="images/demo1.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <h5 class="card-title fs-3 text-primary">Front End Devloper</h5>
+                                    <p class="card-text fs-4 text-secondary">Microsoft</p>
+                                    <span class="text-danger">Aden</span>
                                 </div>
                                 <div class="card-footer bg-white">
                                     <div class="mb-1">
@@ -127,9 +129,9 @@
                             <div class="card h-100">
                                 <img src="images/demo1.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
+                                    <h5 class="card-title fs-3 text-primary">Full Stack Devloper</h5>
+                                    <p class="card-text fs-4 text-secondary">Google</p>
+                                    <span class="text-danger">Mukalla</span>
                                 </div>
                                 <div class="card-footer bg-white">
                                     <div class="mb-1">
@@ -143,10 +145,9 @@
                             <div class="card h-100">
                                 <img src="images/demo1.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This card has even longer content than the first
-                                        to show that equal height action.</p>
+                                    <h5 class="card-title fs-3 text-primary">Graphics Designer</h5>
+                                    <p class="card-text fs-4 text-secondary">Sony</p>
+                                    <span class="text-danger">Taiz</span>
                                 </div>
                                 <div class="card-footer bg-white">
                                     <div class="mb-1">
@@ -160,9 +161,9 @@
                             <div class="card h-100">
                                 <img src="images/demo1.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <h5 class="card-title fs-3 text-primary">Project Manager</h5>
+                                    <p class="card-text fs-4 text-secondary">Microsoft</p>
+                                    <span class="text-danger">Mukalla</span>
                                 </div>
                                 <div class="card-footer bg-white">
                                     <div class="mb-1">
@@ -176,9 +177,9 @@
                             <div class="card h-100">
                                 <img src="images/demo1.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
+                                    <h5 class="card-title fs-3 text-primary">Mobile Applilcations Devloper</h5>
+                                    <p class="card-text fs-4 text-secondary">Sony</p>
+                                    <span class="text-danger">Sanaa</span>
                                 </div>
                                 <div class="card-footer bg-white">
                                     <div class="mb-1">
@@ -192,10 +193,9 @@
                             <div class="card h-100">
                                 <img src="images/demo1.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This card has even longer content than the first
-                                        to show that equal height action.</p>
+                                    <h5 class="card-title fs-3 text-primary">Driver</h5>
+                                    <p class="card-text fs-4 text-secondary">Google</p>
+                                    <span class="text-danger">Taiz</span>
                                 </div>
                                 <div class="card-footer bg-white">
                                     <div class="mb-1">
@@ -263,19 +263,20 @@
                     <div class="row justify-content-center">
                         <div class="col-auto mb-4 mb-md-0">
                             <p class="pt-2">
-                                <strong>Subscrip to get notifications</strong>
+                                <strong class="en">Subscrip to get notifications</strong>
+                                <strong class="ar">اشترك الان للحصول احدث الاعلامات</strong>
                             </p>
                         </div>
                         <div class="col-md-5 col-12 mb-4 mb-md-0">
                             <div class="form-outline mb-4">
                                 <input type="email" id="form5Example25" class="form-control" />
-                                <label class="form-label" for="form5Example25">Email address</label>
+                                <label class="form-label en" for="form5Example25">Email address</label>
+                                <label class="form-label ar" for="form5Example25">عنوان البريد الالكتروني</label>
                             </div>
                         </div>
                         <div class="col-auto mb-4 mb-md-0">
-                            <button type="submit" class="btn btn-primary mb-4">
-                                Subscribe
-                            </button>
+                            <button type="submit" class="btn btn-primary mb-4 en">Subscribe</button>
+                            <button type="submit" class="btn btn-primary mb-4 ar">أشتراك</button>
                         </div>
                     </div>
                 </form>
@@ -285,34 +286,37 @@
             <div class="container text-center text-md-start mt-5">
                 <div class="row mt-3">
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4"><i class="fas fa-user me-3"></i>Hire Me</h6>
-                        <p>
-                            Hire Me is the Place you can find your dream job.
-                        </p>
+                        <h6 class="text-uppercase fw-bold mb-4 en"><i class="fas fa-user me-3"></i>Hire Me</h6>
+                        <h6 class="text-uppercase fw-bold mb-4 ar"><i class="fas fa-user me-3"></i>كن موظفا</h6>
+                        <p class="en">Hire Me is the Place you can find your dream job.</p>
+                        <p class="ar">كن موظفا هي المكان الذي يمكنك فيه ايجاد وظيفة احلامك.</p>
                     </div>
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            links
-                        </h6>
+                        <h6 class="text-uppercase fw-bold mb-4 en">links</h6>
+                        <h6 class="text-uppercase fw-bold mb-4 ar">روابط</h6>
                         <p>
-                            <a href="#!" class="text-reset">home</a>
+                            <a href="#!" class="text-reset en">Home</a>
+                            <a href="#!" class="text-reset ar">الرئيسية</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">services</a>
+                            <a href="#!" class="text-reset en">Our Services</a>
+                            <a href="#!" class="text-reset ar">الخدمات</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">contact</a>
+                            <a href="#!" class="text-reset en">Contact Us</a>
+                            <a href="#!" class="text-reset ar">شركائنا</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">about</a>
+                            <a href="#!" class="text-reset en">About Us</a>
+                            <a href="#!" class="text-reset ar">من نحن</a>
                         </p>
                     </div>
                     
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Contact
-                        </h6>
-                        <p><i class="fas fa-home me-3"></i> Yemen , Hadhramout , Mukalla</p>
+                        <h6 class="text-uppercase fw-bold mb-4 en">Contact</h6>
+                        <h6 class="text-uppercase fw-bold mb-4 ar">للتواصل</h6>
+                        <p class="en"><i class="fas fa-home me-3"></i> Yemen , Hadhramout , Mukalla</p>
+                        <p class="ar"><i class="fas fa-home me-3"></i> اليمن , حضرموت , المكلا</p>
                         <p>
                             <i class="fas fa-envelope me-3"></i>
                             Baaboud.dev@gmail.com
@@ -332,6 +336,13 @@
     <script src="js/app.js"></script>
     <script>
         $("#search").css('top', $('nav').height());
+
+        $("#search-input").on("keyup", function () {
+            var value = $(this).val().toLowerCase();
+            $(".jobs .col").filter(function () {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
     </script>
 </body>
 
